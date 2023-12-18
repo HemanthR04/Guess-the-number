@@ -1,0 +1,101 @@
+body{
+    background-color: #C3E2C2;
+    color: #121212;
+    font-family: 'Comic Neue', cursive;
+}
+
+.main{
+    width: 800px;
+    height: 800px;
+    border: 1px solid black;
+    margin: auto;
+    background-color: #EAECCC;
+    border-radius: 20px;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.prize1{
+    font-size: 32px;
+    width: 400px;
+    height: 100px;
+    display: block;
+    text-align: center;
+}
+ .Heading>h1{
+    text-align: center;
+    font-size: 36px;
+    
+ }
+ .prize{
+    text-align: center;
+    font-size: 48px;
+    
+    display: none;
+    width: 400px;
+    height: 100px;
+    margin: auto;
+    font-weight: 600;
+ }
+
+.answers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+ #answerBox{
+    width: 200px;
+    height: 100px;
+    background-color: transparent;
+    color: #121212;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 12px;
+ }
+ .checkBtn{
+    width: 150px;
+    height: 60px;
+    border-radius: 12px;
+    font-size: 18px;
+    background-color: #DBCC95;
+    color: #121212;
+ }
+
+ .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px ;
+   
+ }
+
+ .scores{
+    padding: 12px;
+    font-size: 32px;
+    font-weight: 600;
+ }
+ .againBtn{
+    width: 150px;
+    height: 60px;
+    border-radius: 12px;
+    font-size: 18px;
+    background-color: #DBCC95;
+    color: #121212;
+ }
+
+ @media (max-width:600px){
+    .main{
+        width: 100%;
+        height: 100vh;
+    }
+    .content{
+        flex-direction: column;
+    }
+ }
